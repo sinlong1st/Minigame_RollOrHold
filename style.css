@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent_Marker&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +8,12 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-
+@font-face {
+  font-family: 'GemunuLibre';
+  src: url('GemunuLibre-VariableFont_wght.ttf');
+}
 body {
-  font-family: 'Permanent_Marker', sans-serif;
+  font-family: 'GemunuLibre', sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
