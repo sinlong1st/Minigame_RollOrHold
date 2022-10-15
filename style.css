@@ -9,11 +9,11 @@ html {
   box-sizing: border-box;
 }
 @font-face {
-  font-family: 'GemunuLibre';
-  src: url('GemunuLibre-VariableFont_wght.ttf');
+  font-family: "GemunuLibre";
+  src: url("GemunuLibre-VariableFont_wght.ttf");
 }
 body {
-  font-family: 'GemunuLibre', sans-serif;
+  font-family: "GemunuLibre", sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
@@ -182,4 +182,8 @@ main {
   to {
     transform: rotate(359deg);
   }
+}
+.resultBoard {
+  vertical-align: middle;
+  margin-top: 0px;
 }
