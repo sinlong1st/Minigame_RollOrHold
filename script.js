@@ -81,8 +81,8 @@ btnHold.addEventListener('click', function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       scoreBoard[activePlayer];
     document.getElementById(`current--${activePlayer}`).textContent = 0;
-    // Check if player goes over 100 points
-    if (scoreBoard[activePlayer] >= 10) {
+    // Check if player goes over 50 points
+    if (scoreBoard[activePlayer] >= 50) {
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.add('player--winner');
@@ -96,7 +96,7 @@ btnHold.addEventListener('click', function () {
       }`;
       // document.querySelector('.resultBoard').classList.remove('hidden');
     } else {
-      // If active player's point is not over 100, keep playing and switching player
+      // If active player's point is not over 50, keep playing and switching player
       // Switch player
       // If this is not the beginning of the game, just switch player like normal.
       // This condition is to make sure at the beginning of the game, the Hold feature doesn't
